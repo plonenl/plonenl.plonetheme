@@ -1,0 +1,433 @@
+/* Stylesheet for the 'plonenl' Plone theme */
+
+.portalMessage {
+    display: none;
+}
+
+body {
+    background: url(++resource++plonenl.plonetheme.images/background.gif) repeat-x white;
+    font-family: "Trebuchet MS","Lucida Grande",Verdana,Lucida,Helvetica,Arial,sans-serif;
+    color: #484848;
+}
+
+.documentContent {
+    padding:0 !important;
+    background: transparent;
+}
+.portlet {
+    background: url(++resource++plonenl.plonetheme.images/portletbackground.gif) repeat-x;
+    border: 0;
+}
+.portlet a{
+    color: #036497;
+}
+.portletHeader a {
+    color: #FFFFFF;
+    text-transform: none;
+    line-height: 30px;
+}
+.portletHeader {
+    border: 0;
+    color: #FFFFFF;
+    background: url(++resource++plonenl.plonetheme.images/portletheader.gif);
+    height: 30px;
+    font-size: 170%;
+    font-weight: bold;
+    padding: 0 10px;
+}
+.portletItem {
+    border: 0;
+    border-left: solid 1px #f9d4af;
+    background: transparent;
+    padding: 12px 10px 0;
+}
+.portletItemDetails {
+    color: #6c6b6b;
+}
+#portal-globalnav li {
+    padding-bottom: 7px;
+}
+
+#portal-globalnav ul.submenu {
+    font-size: 110%;
+    border-color: #016395;
+    margin-top: 7px;
+    padding: 9px 0;
+    background: #eff8fc url(++resource++plonenl.plonetheme.images/submenubackground.gif) repeat-x;
+    background-color: #eff4f6;
+}
+#portal-globalnav li ul ul {
+    left:0;
+    margin:0 0 0 15em;
+    top:0.6em;
+    z-index:10;
+}
+#portal-searchbox {
+    padding-right: 16px;
+}
+.LSBox {
+    padding-top: 30px;
+}
+.LSBox .searchButton {
+    background: url(++resource++plonenl.plonetheme.images/searchbutton.gif);
+    width: 40px;
+    height: 21px;
+    font-size: 0;
+    border:1px solid #016395;
+}
+#searchGadget {
+    border:1px solid #016395;
+    color: #016395;
+    font-size: 80%;
+    background: white;
+    padding: 2px;
+}
+
+.portletFooter {
+    border: 0;
+    background: transparent;
+}
+#user-name img {
+    display: none;
+}
+
+#portal-column-content {
+    margin: 0;
+    padding: 24px 0 0 108px;
+}
+#portal-column-two {
+  float: right;
+  width: 246px;
+}
+#portal-column-two .visualPadding {
+    padding: 24px 16px 0 0px;
+}
+
+#portal-columns {
+    background: url(++resource++plonenl.plonetheme.images/contentbackground.jpg) no-repeat 415px 0px white;
+    width: 960px !important;
+}
+#portal-personaltools {
+    background-color:transparent;
+    border:0;
+}
+#portal-personaltools li a {
+    color:#FFFFFF;
+    text-decoration:none;
+    text-transform: none;
+}
+#portal-personaltools li a:hover {
+    text-decoration: underline;
+}
+#portal-top {
+    background: url(++resource++plonenl.plonetheme.images/headerbackground.jpg);
+    height: 170px;
+    font-size: 120%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color:#026396;
+}
+
+h1, h2 {
+    border:0;
+    font-weight:normal;
+}
+
+h3, h4, h5, h6 {
+    font-weight:normal;
+}
+
+#portal-top li {
+    margin-left: 0px;
+}
+#portal-globalnav {
+    padding-top: 20px;
+    padding-left: 108px;
+}
+#portal-globalnav > li {
+    padding:0 0 7px;
+}
+#portal-globalnav .submenu li a,
+#portal-globalnav .submenu li.selected a,
+#portal-globalnav .submenu li a:hover {
+    font-size: 100% !important;
+    padding: 0 12px;
+}
+#portal-globalnav .submenu li a:hover {
+    background-color: #ed7500 !important;
+    color: #FFFFFF !important;
+}
+#portal-globalnav li a,
+#portal-globalnav li.selected a,
+#portal-globalnav li a:hover {
+    margin: 0;
+    padding: 0;
+    padding-left: 7px;
+    padding-right: 32px;
+    background-color:transparent;
+    border: 0;
+    color:#026396 !important;
+    font-size: 160%;
+    text-transform: none;
+}
+
+.searchSection {
+    display: none;
+}
+#portal-siteactions {
+    margin: 0;
+    padding: 0;
+    padding-top: 6px;
+    padding-right: 4px;
+    line-height: 1.5em;
+}
+#portal-siteactions li a, #portal-siteactions li a:hover {
+    border:0;
+    color:#FFFFFF;
+    margin:0em;
+    padding:0em;
+    padding-right: 8px;
+    text-transform:none;
+    background: transparent;
+}
+#portal-siteactions li a:hover {
+    text-decoration: underline;
+}
+#portal-personaltools-wrapper {
+    float: right;
+    padding-top: 6px;
+    padding-right: 12px;
+}
+#portal-personaltools {
+    padding: 0;
+    margin: 0;
+}
+#portal-logo img {
+    margin-top: 44px;
+    margin-left: 22px;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+#visual-portal-wrapper {
+  background: #fff;
+  width: 960px;
+  margin: 0 auto -105px;
+  height: auto !important;
+  min-height: 100%;
+}
+
+.documentEditable .documentContent {
+    border: 0;
+}
+
+.contentActions {
+    border: 0;
+}
+
+.contentActions li {
+    border: 0;
+}
+#portal-column-content { width: 585px; }
+
+#portalfooter {
+    background: url(++resource++plonenl.plonetheme.images/footerlogo.png) no-repeat 52px 10px #297ca6;
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-family: "Trebuchet MS","Lucida Grande",Verdana,Lucida,Helvetica,Arial,sans-serif;
+}
+
+#portal-colophon ul li {
+    font-size:100%;
+}
+
+#portal-footer a,
+#portal-footer a:link,
+#portal-footer a:visited {
+    color:#FFFFFF;
+}
+
+acronym {
+    color:#FFFFFF;
+    border-bottom: 0;
+}
+
+#portal-colophon ul li a {
+    border-bottom: 0;
+    color:#FFFFFF;
+    text-decoration:none;
+}
+
+#portal-colophon ul li a:hover {
+    border-bottom: 1px solid #FFFFFF;
+    color:#FFFFFF;
+    text-decoration:none;
+}
+
+#portal-footer {
+    background-color: transparent;
+    border: 0;
+    padding:0;
+    margin: 0;
+    margin-left: 150px;
+    border-left: solid 1px white;
+    text-align: left;
+    padding-left: 16px;
+}
+
+#portal-footer p {
+    margin: 0;
+}
+
+#portal-colophon {
+    margin: 0;
+    padding: 0;
+    padding-left: 16px;
+    padding-top: 12px;
+    margin-left: 150px;
+    border-left: solid 1px white;
+    text-align: left;
+}
+
+#portal-colophon ul {
+    margin: 0;
+    padding: 0;
+}
+
+#portal-colophon ul li {
+    padding: 0;
+}
+
+/* hide world globe icon */
+#content a[href^="http:"], #content a.link-external {
+    background:none;
+    padding:0px;
+}
+
+#portal-globalnav li.selected ul.submenu {
+    margin-top:7px;
+}
+#portal-globalnav li.selected ul.submenu a:hover {
+    background-color: #ED7500;
+}
+
+#portal-sitemap .navTreeLevel2 {
+    border-left: 0px solid white;
+}
+
+#portal-sitemap .navTreeItem {
+    display: list-item
+}
+
+ul.navTreeLevel0 > li > div > a {
+    font-weight: bold;
+}
+
+#portal-sitemap li.visualNoMarker {
+    margin-top: 10px;
+}
+
+#portal-sitemap a {
+    border:0px solid #8CACBB;
+}
+
+#portal-sitemap a:hover {
+    border:0px solid #8CACBB;
+}
+#portal-globalnav .submenu li a, #portal-globalnav .submenu li.selected a, #portal-globalnav .submenu li a:hover {
+    padding: 0px 12px;
+}
+#dfooter {
+    padding:0;
+    height:105px;
+    margin: 0 auto;
+    width: 960px;
+}
+#push {
+    height: 105px;
+    background-color: white;
+}
+html, body {
+    height:100%;
+}
+
+h1.documentFirstHeading {
+    margin-top: 1px;
+}
+
+.homepageblock {
+    background: url(++resource++plonenl.plonetheme.images/homepageheader.jpg);
+    background-repeat: no-repeat;
+    margin: 0 -11px;
+    height: 225px;
+    padding: 15px;
+    color: #fff;
+    position: relative;
+    width: 550px;
+}
+.homepageblock .documentDescription {
+    color: #ffffff;
+    font-size: 125%;
+    text-align: justify;
+}
+.homepageblock h1  {
+    color: #ffffff;
+    font-size: 170%;
+}
+.aboutplonelink {
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+}
+.aboutplonelink a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 120%;
+}
+#content {
+  position: relative;
+  float: left;
+}
+body.template-faqfolder_view .context {
+    display: none;
+}
+/* search */
+form.searchPage {
+    text-align: left;
+}
+
+input.searchPage {
+    font-size:150% !important;
+}
+
+dl.searchResults {
+    margin-top: 20px;
+}
+
+dl.searchResults a {
+    text-decoration: none;
+}
+
+dl.searchResults dd {
+    margin-left: 15px
+}
+
+
+/* navig */
+.navTreeItem a, dd.portletItem .navTreeItem a {
+    border: 0px;
+}
+.navTreeItem a:hover, dd.portletItem .navTreeItem a:hover {
+    background-color:transparent;
+    border:0px;
+}
+.navTreeCurrentItem {
+    background-color:transparent;
+    border: 0px !important;
+    color:#436976;
+}
+/* Position PloneFormGen forms */
+.pfg-form { float: left; }
+
