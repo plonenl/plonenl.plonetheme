@@ -1,0 +1,14 @@
+<div id="portal-footer" metal:define-macro="portal_footer" i18n:domain="plone">
+
+<p>
+    Het <a href="http://plone.org">Plone<sup>&reg;</sup> CMS - Open Source Content Management Systeem</a> is <acronym title="Copyright">&copy;</acronym> 2000-2009 door de <a href="http://plone.org/foundation">Plone Foundation</a> et al.
+</p>
+
+<p>
+    Plone<sup>&reg;</sup> en het logo van Plone zijn geregistreerde handelsmerken van de  <a href="http://plone.org/foundation">Plone Foundation</a>.
+
+    Gedistribueerd onder <a href="http://creativecommons.org/licenses/GPL/2.0/">GNU GPL licentie</a>.
+
+    <br />Ontwerp door <a href="http://www.catharsisdesign.nl">catharsis design</a>
+</p>
+</div>

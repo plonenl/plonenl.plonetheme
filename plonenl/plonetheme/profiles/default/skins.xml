@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<object name="portal_skins" allow_any="False" cookie_persistence="False"
+   default_skin="plonenl">
+
+ <object name="plonenl_plonetheme_images"
+    meta_type="Filesystem Directory View"
+    directory="plonenl.plonetheme:skins/plonenl_plonetheme_images"/>
+ <object name="plonenl_plonetheme_templates"
+    meta_type="Filesystem Directory View"
+    directory="plonenl.plonetheme:skins/plonenl_plonetheme_templates"/>
+ <object name="plonenl_plonetheme_styles"
+    meta_type="Filesystem Directory View"
+    directory="plonenl.plonetheme:skins/plonenl_plonetheme_styles"/>
+
+ <skin-path name="plonenl" based-on="Plone Default">
+  <layer name="plonenl_plonetheme_images"
+     insert-after="custom"/>
+  <layer name="plonenl_plonetheme_templates"
+     insert-after="plonenl_plonetheme_images"/>
+  <layer name="plonenl_plonetheme_styles"
+     insert-after="plonenl_plonetheme_templates"/>
+  <layer name="faq"
+     insert-after="plonenl_plonetheme_styles"/>
+ </skin-path>
+
+
+
+</object>

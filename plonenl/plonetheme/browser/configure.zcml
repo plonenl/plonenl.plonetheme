@@ -1,0 +1,53 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="plonenl.plonetheme">
+
+  <!-- 'plonenl' Zope 3 browser layer -->
+  <interface
+      interface=".interfaces.IThemeSpecific"
+      type="zope.publisher.interfaces.browser.IBrowserSkinType"
+      name="plonenl"
+      />
+
+
+<!-- The customized footer -->
+<browser:viewlet
+   name="plone.footer"
+   for="*"
+   manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+   layer=".interfaces.IThemeSpecific"
+   template="templates/footer.pt"
+   permission="zope.Public"
+   />
+
+  <!-- Viewlets registration -->
+  <!-- Zope 3 browser resources -->
+
+  <!-- Resource directory for images -->
+  <browser:resourceDirectory
+      name="plonenl.plonetheme.images"
+      directory="images"
+      layer=".interfaces.IThemeSpecific"
+      />
+
+  <!-- Resource directory for stylesheets -->
+  <browser:resourceDirectory
+      name="plonenl.plonetheme.stylesheets"
+      directory="stylesheets"
+      layer=".interfaces.IThemeSpecific"
+      />
+  <!-- Resource directory for javascripts -->
+  <browser:resourceDirectory
+      name="plonenl.plonetheme.javascripts"
+      directory="javascripts"
+      layer=".interfaces.IThemeSpecific"
+      />
+    <browser:page
+        name="homepage"
+        for="*"
+        class=".views.HomepageView"
+        template="templates/homepage.pt"
+        permission="zope2.View" />
+
+</configure>
