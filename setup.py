@@ -24,6 +24,7 @@ setup(name='plonenl.plonetheme',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'collective.ploneslimbar',
           # -*- Extra requirements: -*-
       ],
       entry_points="""
