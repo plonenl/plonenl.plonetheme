@@ -123,6 +123,7 @@ body {
     background: url(++resource++plonenl.plonetheme.images/headerbackground.jpg);
     height: 170px;
     font-size: 120%;
+    margin-top: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -431,3 +432,17 @@ dl.searchResults dd {
 /* Position PloneFormGen forms */
 .pfg-form { float: left; }
 
+#visual-portal-wrapper #slimbar {
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+    font-size: 80%;
+    left: 0;
+}
+#slimbar .actionMenuContent li {
+    list-style: none;
+}
+#slimbar .actionMenuContent li a {
+    display: inline-block !important;
+    text-align: right;
+}
